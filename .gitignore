@@ -147,3 +147,46 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# =========================
+# Python
+# =========================
+
+# Virtual environments
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# =========================
+# Database
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Uploaded files
+# =========================
+
+uploads/*
+!uploads/.gitkeep
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
